@@ -1,32 +1,25 @@
-# Portfolio
+# van1dal — portfolio
 
-# 🌐 Van1dal.dev Portfolio
+Personal site of a Go backend developer: projects, live GitHub activity, CV, blog and an interactive terminal.
 
-My personal portfolio website.
+**Live:** https://van1dalgrr-arch.github.io/Portfolio/
 
-## 🚀 About
+## Stack
 
-A simple portfolio website created to practice frontend development.
+React · TypeScript · Vite · Framer Motion · marked
 
-## 🛠 Technologies
+## Run
 
-- HTML5
-- CSS3
-- JavaScript
+```sh
+npm install
+npm run dev
+```
 
-## ✨ Features
+## Where things live
 
-- Responsive layout
-- Modern dark UI
-- Smooth animations
-- Custom cards and sections
+- `src/data.ts` — texts, projects, skills, contacts (RU / EN)
+- `src/details.ts` — project pages content
+- `src/posts/*.md` — blog posts (frontmatter: title, date, summary, tags)
+- `src/styles.css` — colors and layout
 
-## 📂 Project Structure
-
-## 🎯 Goal
-
-This project was created to improve my frontend skills and learn how to build modern web interfaces.
-
----
-
-Made by Van1dal 🚀
+Every push to `main` is built and deployed to GitHub Pages by `.github/workflows/deploy.yml`.
